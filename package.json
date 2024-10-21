@@ -5,11 +5,12 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vue-tsc -b && vite build",
+    "build": "rm -rf public/drawio && cp -r node_modules/@coffic/juice-editor-draw/drawio public/ && vue-tsc -b && vite build",
     "preview": "vite preview"
   },
   "dependencies": {
-    "juice-editor": "^0.9.40",
+    "@coffic/juice-editor": "^0.9.83",
+    "@coffic/juice-editor-draw": "^0.2.5",
     "vue": "^3.5.10"
   },
   "devDependencies": {

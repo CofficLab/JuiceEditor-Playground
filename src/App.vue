@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import HelloWorld from './components/HelloWorld.vue'
-import { defineJuiceEditor } from 'juice-editor'
+import { defineJuiceEditor } from '@coffic/juice-editor'
 
 defineJuiceEditor()
 </script>
