@@ -4,20 +4,21 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "rm -rf public/drawio && cp -r node_modules/@coffic/juice-editor-draw/drawio public/ && vue-tsc -b && vite build",
+    "dev": "npm run draw:copy && vite",
+    "build": "npm run draw:copy && vue-tsc -b && vite build",
+    "draw:copy": "rm -rf public/drawio && cp -r node_modules/@coffic/juice-editor-draw/drawio public/",
     "preview": "vite preview"
   },
   "dependencies": {
-    "@coffic/juice-editor": "^0.9.83",
-    "@coffic/juice-editor-draw": "^0.2.5",
-    "vue": "^3.5.10"
+    "@coffic/juice-editor": "^0.9.84",
+    "@coffic/juice-editor-draw": "^0.2.6",
+    "vue": "^3.5.12"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.1.4",
     "postcss-import": "^16.1.0",
-    "typescript": "^5.5.3",
-    "vite": "^5.4.8",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.9",
     "vue-tsc": "^2.1.6"
   }
 }
