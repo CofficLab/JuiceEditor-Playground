@@ -1,6 +1,13 @@
 <script setup lang="ts">
 import { defineJuiceEditor, EventName, EventType } from '@coffic/juice-editor'
 
+const html = `
+  <h1 class='ml-0'>Juice Editor</h1>
+  <p class='ml-0'>Hello World</p>
+  <h2>Link</h2>
+  You can find the source code of this playground on ➡️ <a href='https://github.com/CofficLab/JuiceEditor-Playground'>GitHub</a>
+`
+
 defineJuiceEditor()
 
 window.addEventListener(EventName, ((event: CustomEvent) => {
@@ -10,7 +17,7 @@ window.addEventListener(EventName, ((event: CustomEvent) => {
     let drawLink = "/drawio/webapp/index.html?"
     console.log('editorReady, set draw link', drawLink);
     (window as any).api.config.setDrawIoLink(drawLink);
-    (window as any).api.node.setHTML("<h1 class='ml-0'>Juice Editor</h1><p class='ml-0'>Hello World</p>");
+    (window as any).api.node.setHTML(html);
   }
 }) as EventListener)
 </script>
