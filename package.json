@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@coffic/juice-editor": "^0.9.87",
-    "@coffic/juice-editor-draw": "^0.2.7",
+    "@coffic/juice-editor-draw": "^0.2.10",
     "vue": "^3.5.12"
   },
   "devDependencies": {
