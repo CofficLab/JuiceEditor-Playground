@@ -23,3 +23,5 @@ public/drawio
 *.njsproj
 *.sln
 *.sw?
+
+*.tsbuildinfo
