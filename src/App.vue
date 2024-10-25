@@ -8,11 +8,11 @@ const html = `
   You can find the source code of this playground on ➡️ <a href='https://github.com/CofficLab/JuiceEditor-Playground'>GitHub</a>
 `
 
-editor.onCreated = () => {
+editor.onCreate = () => {
   console.log('editor created')
 
-  editor.setDrawIoLink('/drawio/webapp/index.html?')
-  editor.setHTML(html)
+  editor.setDrawLink('/drawio/webapp/index.html?')
+  editor.setHtml(html)
 }
 </script>
 
