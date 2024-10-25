@@ -11,18 +11,16 @@ jobs:
   update:
     runs-on: ubuntu-latest
     steps:
-      - name: 当前用户
-        run: whoami
       - name: Checkout
         uses: actions/checkout@v4
-      - name: NPM 版本
-        run: npm -v
-      - name: 安装PNPM
-        run: npm i -g pnpm
-      - name: Update
+      - name: Prepare
         run: |
-          pnpm update
-          pnpm run build
+          npm -v
+          npm i -g pnpm
+      - name: Update
+        run: pnpm update
+      - name: Build
+        run: npm run build
       - name: Update Hero Picture
         run: |
           git clone https://github.com/CofficLab/JuiceEditor
