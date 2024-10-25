@@ -13,6 +13,6 @@ Click [here](https://cofficlab.github.io/JuiceEditor-Playground/) to view the pl
 - [JuiceEditor-SwiftUI](https://github.com/cofficlab/JuiceEditor-SwiftUI)
 - [JuiceEditor-Examples](https://github.com/cofficlab/JuiceEditor-Examples)
 
-## Maintainers
+## Maintainer
 
 Work for Joy & Live for Love ➡️ <https://github.com/nookery>

@@ -14,6 +14,10 @@ editor.onCreate = () => {
   editor.setDrawLink('/drawio/webapp/index.html?')
   editor.setHtml(html)
 }
+
+editor.onUpdate = () => {
+  console.log('editor updated')
+}
 </script>
 
 <template>
