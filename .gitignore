@@ -10,7 +10,7 @@ lerna-debug.log*
 node_modules
 dist
 dist-ssr
-public/drawio
+public/draw
 *.local
 
 # Editor directories and files

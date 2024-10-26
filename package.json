@@ -6,12 +6,12 @@
   "scripts": {
     "dev": "npm run draw:copy && vite",
     "build": "npm run draw:copy && vue-tsc -b && vite build",
-    "draw:copy": "rm -rf public/drawio && cp -r node_modules/@coffic/juice-editor-draw/drawio public/",
+    "draw:copy": "rm -rf public/draw && cp -rf node_modules/@coffic/juice-editor-draw/dist public/draw",
     "preview": "vite preview"
   },
   "dependencies": {
-    "@coffic/juice-editor": "^0.9.92",
-    "@coffic/juice-editor-draw": "^1.0.1",
+    "@coffic/juice-editor": "^0.9.93",
+    "@coffic/juice-editor-draw": "^1.0.5",
     "vue": "^3.5.12"
   },
   "devDependencies": {
