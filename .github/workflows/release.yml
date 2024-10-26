@@ -20,23 +20,8 @@ env:
   should_release: true
 
 jobs:
-  on-success:
-    runs-on: ubuntu-latest
-    if: ${{ github.event.workflow_run.conclusion == 'success' }}
-    steps:
-      - run: echo 'The triggering workflow passed'
-      - run: echo "should_release=true" >> $GITHUB_ENV
-
-  on-failure:
-    runs-on: ubuntu-latest
-    if: ${{ github.event.workflow_run.conclusion == 'failure' }}
-    steps:
-      - run: echo 'The triggering workflow failed'
-      - run: echo "should_release=false" >> $GITHUB_ENV
-
   build:
     runs-on: ubuntu-latest
-    needs: [on-success, on-failure]
     steps:
       - name: 当前用户
         run: whoami
