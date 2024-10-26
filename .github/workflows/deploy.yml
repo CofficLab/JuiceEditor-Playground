@@ -17,8 +17,21 @@ permissions:
   contents: write
 
 jobs:
+on-success:
+    runs-on: ubuntu-latest
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
+    steps:
+      - run: echo 'The triggering workflow passed'
+
+  on-failure:
+    runs-on: ubuntu-latest
+    if: ${{ github.event.workflow_run.conclusion == 'failure' }}
+    steps:
+      - run: echo 'The triggering workflow failed'
+
   build:
     runs-on: ubuntu-latest
+    needs: [on-success]
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
