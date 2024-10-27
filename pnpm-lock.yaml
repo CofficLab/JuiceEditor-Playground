@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@coffic/juice-editor':
-        specifier: ^0.9.95
-        version: 0.9.95(sass@1.80.3)(terser@5.36.0)
+        specifier: ^0.9.96
+        version: 0.9.96(sass@1.80.3)(terser@5.36.0)
       '@coffic/juice-editor-draw':
         specifier: ^1.0.5
         version: 1.0.5
@@ -31,8 +31,8 @@ importers:
         specifier: ^5.4.10
         version: 5.4.10(@types/node@22.8.1)(sass@1.80.3)(terser@5.36.0)
       vue-tsc:
-        specifier: ^2.1.6
-        version: 2.1.6(typescript@5.6.3)
+        specifier: ^2.1.8
+        version: 2.1.8(typescript@5.6.3)
 
 packages:
 
@@ -60,8 +60,8 @@ packages:
   '@coffic/juice-editor-draw@1.0.5':
     resolution: {integrity: sha512-vLmbbXAuIB7yaE2qzufXw3AbvgHphEeFfzNfmaDHz8u1sMmo6y41cRZPIfO+sUZ9b+TT5HpkpJ1RtomP/rueNg==}
 
-  '@coffic/juice-editor@0.9.95':
-    resolution: {integrity: sha512-dIoeza8Fs5rZ5Vh/DLbfxmXJHIWPRXlgjBBkyUesBn++Pb03BCwamVq8wy4Nc5AKDDyBe2CzviQzxfSbHpf4dQ==}
+  '@coffic/juice-editor@0.9.96':
+    resolution: {integrity: sha512-vEiSJO69mYqoVfpqbia8wtLtoDPLvXgDxH0aR9SXHX2v6gF0qWzT2+hL3bOs7FtdUahuVIMj8hIYvjTkemWAVg==}
 
   '@csstools/selector-resolve-nested@1.1.0':
     resolution: {integrity: sha512-uWvSaeRcHyeNenKg8tp17EVDRkpflmdyvbE0DHo6D/GdBb6PDnCYYU6gRpXhtICMGMcahQmj2zGxwFM/WC8hCg==}
@@ -872,8 +872,8 @@ packages:
       typescript:
         optional: true
 
-  '@vue/language-core@2.1.6':
-    resolution: {integrity: sha512-MW569cSky9R/ooKMh6xa2g1D0AtRKbL56k83dzus/bx//RDJk24RHWkMzbAlXjMdDNyxAaagKPRquBIxkxlCkg==}
+  '@vue/language-core@2.1.8':
+    resolution: {integrity: sha512-DtPUKrIRqqzY1joGfVHxHWZoxXZbCQLmVtW+QTifuPInfcs1R/3UAdlJXDp+lpSpP9lI5m+jMYYlwDXXu3KSTg==}
     peerDependencies:
       typescript: '*'
     peerDependenciesMeta:
@@ -901,6 +901,9 @@ packages:
     resolution: {integrity: sha512-8zSiw54Oxrdym50NlZ9sUusyO1Z1ZchgRLWRaK6c86XJFClyCgFKetdowBg5bKxyp/u+CDBJG4Mpp0m3HLZl9w==}
     engines: {node: '>=0.4.0'}
     hasBin: true
+
+  alien-signals@0.2.0:
+    resolution: {integrity: sha512-StlonZhBBrsPPwrDjiPAiVTf/rolxffLxVPT60Qv/t88BZ81BvUVzHgGqEFvJ1ii8HXtm1+zU2Icr59tfWEcag==}
 
   ansi-regex@5.0.1:
     resolution: {integrity: sha512-quJQXlTSUGL2LH9SUXo8VwsY4soanhgo6LNSm84E1LBcE8s3O0wpdiRzyR9z/ZZJMlMWv37qOOb9pdJlMUEKFQ==}
@@ -978,8 +981,8 @@ packages:
     resolution: {integrity: sha512-QOSvevhslijgYwRx6Rv7zKdMF8lbRmx+uQGx2+vDc+KI/eBnsy9kit5aj23AgGu3pa4t9AgwbnXWqS+iOY+2aA==}
     engines: {node: '>= 6'}
 
-  caniuse-lite@1.0.30001671:
-    resolution: {integrity: sha512-jocyVaSSfXg2faluE6hrWkMgDOiULBMca4QLtDT39hw1YxaIPHWc1CcTCKkPmHgGH6tKji6ZNbMSmUAvENf2/A==}
+  caniuse-lite@1.0.30001672:
+    resolution: {integrity: sha512-XhW1vRo1ob6aeK2w3rTohwTPBLse/rvjq+s3RTSBwnlZqoFFjx9cHsShJjAIbLsLjyoacaTxpLZy9v3gg6zypw==}
 
   chokidar@3.6.0:
     resolution: {integrity: sha512-7VT13fmjotKpGipCW9JEQAusEPE+Ei8nl6/g4FBAmIm0GOOLMua9NDDo/DWp0ZAxCr3cPq5ZpBqmPAQgDda2Pw==}
@@ -1728,8 +1731,8 @@ packages:
     peerDependencies:
       typescript: '*'
 
-  vue-tsc@2.1.6:
-    resolution: {integrity: sha512-f98dyZp5FOukcYmbFpuSCJ4Z0vHSOSmxGttZJCsFeX0M4w/Rsq0s4uKXjcSRsZqsRgQa6z7SfuO+y0HVICE57Q==}
+  vue-tsc@2.1.8:
+    resolution: {integrity: sha512-6+vjb7JLxKIzeD/1ktoUBZGAr+148FQoEFl8Lv5EpDJLO2PrUalhp7atMEuzEkLnoooM5bg3pJqjZI+oobxIaQ==}
     hasBin: true
     peerDependencies:
       typescript: '>=5.0.0'
@@ -1782,7 +1785,7 @@ snapshots:
 
   '@coffic/juice-editor-draw@1.0.5': {}
 
-  '@coffic/juice-editor@0.9.95(sass@1.80.3)(terser@5.36.0)':
+  '@coffic/juice-editor@0.9.96(sass@1.80.3)(terser@5.36.0)':
     dependencies:
       '@remixicon/vue': 4.4.0(vue@3.5.12(typescript@5.6.3))
       '@tailwindcss/typography': 0.5.15(tailwindcss@3.4.14)
@@ -2491,13 +2494,13 @@ snapshots:
     optionalDependencies:
       typescript: 5.1.6
 
-  '@vue/language-core@2.1.6(typescript@5.6.3)':
+  '@vue/language-core@2.1.8(typescript@5.6.3)':
     dependencies:
       '@volar/language-core': 2.4.8
       '@vue/compiler-dom': 3.5.12
       '@vue/compiler-vue2': 2.7.16
       '@vue/shared': 3.5.12
-      computeds: 0.0.1
+      alien-signals: 0.2.0
       minimatch: 9.0.5
       muggle-string: 0.4.1
       path-browserify: 1.0.1
@@ -2531,6 +2534,8 @@ snapshots:
   acorn@8.13.0:
     optional: true
 
+  alien-signals@0.2.0: {}
+
   ansi-regex@5.0.1: {}
 
   ansi-regex@6.1.0: {}
@@ -2559,7 +2564,7 @@ snapshots:
   autoprefixer@10.4.20(postcss@8.4.47):
     dependencies:
       browserslist: 4.24.2
-      caniuse-lite: 1.0.30001671
+      caniuse-lite: 1.0.30001672
       fraction.js: 4.3.7
       normalize-range: 0.1.2
       picocolors: 1.1.1
@@ -2590,7 +2595,7 @@ snapshots:
 
   browserslist@4.24.2:
     dependencies:
-      caniuse-lite: 1.0.30001671
+      caniuse-lite: 1.0.30001672
       electron-to-chromium: 1.5.47
       node-releases: 2.0.18
       update-browserslist-db: 1.1.1(browserslist@4.24.2)
@@ -2600,7 +2605,7 @@ snapshots:
 
   camelcase-css@2.0.1: {}
 
-  caniuse-lite@1.0.30001671: {}
+  caniuse-lite@1.0.30001672: {}
 
   chokidar@3.6.0:
     dependencies:
@@ -3381,10 +3386,10 @@ snapshots:
       semver: 7.6.3
       typescript: 5.1.6
 
-  vue-tsc@2.1.6(typescript@5.6.3):
+  vue-tsc@2.1.8(typescript@5.6.3):
     dependencies:
       '@volar/typescript': 2.4.8
-      '@vue/language-core': 2.1.6(typescript@5.6.3)
+      '@vue/language-core': 2.1.8(typescript@5.6.3)
       semver: 7.6.3
       typescript: 5.6.3
 
