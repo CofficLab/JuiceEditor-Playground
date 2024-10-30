@@ -22,13 +22,15 @@ const html = `
         <li>Item 2</li>
         <li>Item 3</li>
     </ul>
+  <h2>Code Block</h2>
+  <pre><code class='language-javascript'>console.log('Hello World')</code></pre>
   <h2>Link</h2>
   You can find the source code of this playground on ➡️ <a href='https://github.com/CofficLab/JuiceEditor-Playground'>GitHub</a>
 `
 
 EditorFactory.register('juice-editor', {
   onCreate: (editor: Editor) => {
-    console.log('editor created')
+    editor.enableLog
     editor.setDrawLink('/JuiceEditor-Playground/draw/index.html?')
     editor.setContent(html)
   }
