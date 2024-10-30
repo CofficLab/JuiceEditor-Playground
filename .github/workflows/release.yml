@@ -83,7 +83,7 @@ jobs:
               attempt=$((attempt + 1))
             else
               # Tag doesn't exist, create it
-              git commit -m "👷 CI: Upgrade to $next_version"
+              git commit -am "👷 CI: Upgrade to $next_version"
               git tag -a "$next_version" -m "👷 CI: Upgrade to $next_version"
               git push origin main --tags
               success=true
