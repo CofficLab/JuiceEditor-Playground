@@ -10,9 +10,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@coffic/juice-editor": "^0.9.105",
+    "@coffic/juice-editor": "^0.9.106",
     "@coffic/juice-editor-draw": "^1.0.5",
-    "vue": "^3.5.12"
+    "vue": "^3.5.13"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.2.0",
