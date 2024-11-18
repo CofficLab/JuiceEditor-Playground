@@ -30,7 +30,7 @@ const html = `
 
 EditorFactory.register('juice-editor', {
   onCreate: (editor: Editor) => {
-    editor.enableLog
+    editor.enableVerboseMode()
     editor.setDrawLink('/JuiceEditor-Playground/draw/index.html?')
     editor.setContent(html)
   }
