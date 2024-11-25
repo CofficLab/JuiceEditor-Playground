@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "npm run draw:copy && vite",
-    "build": "npm run draw:copy && vue-tsc -b && vite build",
+    "build": "npm run draw:copy && vite build",
     "draw:copy": "rm -rf public/draw && cp -rf node_modules/@coffic/juice-editor-draw/dist public/draw",
     "preview": "vite preview"
   },
